@@ -36,7 +36,7 @@ if __name__ == '__main__':
     print("-----------------------------")
     print("此脚本用来修改json文件中标签的名字")
     print("-----------------------------")
-    root_path = input("请输入要修改的json文件的路径")
+    root_path = input("请输入要修改的json文件的路径:")
     input_name= input("请输入要修改的文件的名字：")
     name = input_name
     change_label(root_path,name=name)
